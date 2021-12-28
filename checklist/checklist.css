@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-width: 400px;
+  background-color: gray;
+}
+
+.container{
+  width: 100%;
+  padding: 2em;
+}
+input{
+  transform: scale();
+}
+#input-el{
+  padding: .5em;
+  font-size: 1.5rem;
+  width: 100%;
+  border: 2px solid blue;
+  margin-bottom: 1em;
+}
+
+button{
+  color: blue;
+  margin-bottom: 2em;
+  font-size: 1rem;
+  background-color: white;
+  border: 2px solid blue;
+  padding: 1em;
+  width: 150px;
+  cursor: pointer;
+}
+button:active{
+  transform: scale(.95);
+}
+
+label{
+  cursor: pointer;
+  font-size:1.5em;
+  color: aqua;
+}
+
+.checkbox div{
+  background-color: brown;
+  padding: 10px;
+}
+
+
